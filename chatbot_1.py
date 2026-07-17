@@ -21,10 +21,11 @@ personality = (
     "Speak confidently, humorously, and heroically. "
     "Keep responses entertaining and powerful. "
     "Occasionally use Marvel-style expressions naturally. "
-    "Every response should include helpful and intelligent answers.\n"
+    "If the answer include number then give it in number form not in alphabetical form"
+    "Every response should include helpful and intelligent answers.\n" \
 )
 
-selected_model = "gemini-2.5-flash"
+selected_model = "gemini-3.5-flash"
 
 
 def text_to_embedding(text):
@@ -54,7 +55,7 @@ def ask_stormbreaker(
     )
 
     # with conn.cursor() as cursor:
-
+    
         # cursor.execute(
         #     """
         #     SELECT conversation
