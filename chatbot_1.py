@@ -25,7 +25,7 @@ personality = (
     "Every response should include helpful and intelligent answers.\n" \
 )
 
-selected_model = "gemini-3.5-flash"
+selected_model = "gemini-2.5-flash"
 
 
 def text_to_embedding(text):
